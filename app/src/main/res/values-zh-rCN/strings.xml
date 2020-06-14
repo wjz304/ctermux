@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Termux:Float</string>
+	<string name="initial_instruction_toast">在窗口上长按可移动或调整大小\n\n双击并向上或向下拖动手指以更改字体大小</string>
+	<string name="after_long_press">拖动到适当位置并捏一下以调整大小</string>
+
+    <string name="draw_overlay_permission_explanation">本应用需要悬浮窗权限</string>
+    <string name="grant_permission">申请权限</string>
+
+	<string name="notification_title">Termux:Float</string>
+	<string name="notification_message_visible">点击隐藏窗口</string>
+    <string name="notification_message_hidden">点击显示窗口</string>
+
+    <string name="paste_text">粘贴</string>
+    <string name="copy_text">复制</string>
+    <string name="text_selection_more">查看更多…</string>
+
+</resources>
