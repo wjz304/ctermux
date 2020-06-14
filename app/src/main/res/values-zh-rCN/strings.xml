@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Termux:API</string>
+    <string name="share_file_chooser_title">分享到</string>
+    <string name="grant_permission">申请权限</string>
+
+    <string name="permission_description">Termux:API 需要你允许以下权限:\n</string>
+</resources>
