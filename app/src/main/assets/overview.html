@@ -1,0 +1,53 @@
+<p>本插件(Termux:Boot)让你在手机开机时自动运行脚本
+
+<h2>使用方法</h2>
+<ul>
+	<li>打开设置来允许Termux:Boot开机自启
+	<li>创建~/.termux/boot/目录
+	<li>把脚本放在~/.termux/boot/目录
+	<li>如果有多个脚本,Termux:Boot会依次执行
+	<li>你可以在脚本中放上termux-wake-lock命令,防止系统终止进程{部分定制ROM无效}
+</ul>
+
+<h2>例子</h2>
+<p>开机启动SSHD服务,首先mkdir -p ~/.termux/boot,然后touch ~/.termux/boot/sshd.sh,使用编辑器编辑好sshd.sh,可以写下面这些脚本</p>
+
+<pre>
+    #!/data/data/com.termux/files/usr/bin/sh
+    termux-wake-lock
+    sshd
+</pre>
+
+<h2>了解更多</h2>
+<p>参加到Google+社区来讨论<a href="https://termux.com/community">https://termux.com/community</a>
+
+<h2>报告问题</h2>
+<p><a href="https://github.com/termux/termux-boot/issues">https://github.com/termux/termux-boot/issues</a>
+
+
+
+<p>The Termux:Boot add-on provides functionality to run programs under Termux when the device boots up.
+
+<h2>Usage</h2>
+<ul>
+	<li>Start the Termux:Boot app once to allow the system to start the app at boot time.
+	<li>Create the ~/.termux/boot/ directory.
+	<li>Put scripts you want to execute inside the ~/.termux/boot/ directory.
+	<li>If there are multiple files, they will be executed in a sorted order.
+	<li>Note that you may want to run termux-wake-lock as first thing if you want to ensure that the device is prevented from sleeping.
+</ul>
+
+<h2>Example</h2>
+<p>To start an sshd server and prevent the device from sleeping at boot, create a file at ~/.termux/boot/start-sshd containing the three lines</p>
+
+<pre>
+    #!/data/data/com.termux/files/usr/bin/sh
+    termux-wake-lock
+    sshd
+</pre>
+
+<h2>Learn more</h2>
+<p>Join the Termux Google+ community at <a href="https://termux.com/community">https://termux.com/community</a>
+
+<h2>Report issues</h2>
+<p><a href="https://github.com/termux/termux-boot/issues">https://github.com/termux/termux-boot/issues</a>
