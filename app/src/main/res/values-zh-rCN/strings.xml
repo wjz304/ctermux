@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Termux</string>
+    <string name="shared_user_label">Termux用户</string>
+    <string name="run_command_permission_label">在Termux的环境中运行命令</string>
+    <string name="run_command_permission_description">允许第三方应用程序在Termux环境中执行任意命令。</string>
+    <string name="new_session">新建会话</string>
+    <string name="new_session_failsafe">故障保护</string>
+    <string name="toggle_soft_keyboard">键盘</string>
+    <string name="reset_terminal">重置终端</string>
+    <string name="style_terminal">样式</string>
+    <string name="share_transcript_title">分享终端文字</string>
+    <string name="help">帮助</string>
+    <string name="toggle_keep_screen_on">保持屏幕常亮</string>
+
+    <string name="bootstrap_installer_body">安装中…</string>
+    <string name="bootstrap_error_title">无法安装</string>
+    <string name="bootstrap_error_body">Termux无法安装基础引导包</string>
+    <string name="bootstrap_error_abort">退出</string>
+    <string name="bootstrap_error_try_again">重试</string>
+    <string name="bootstrap_error_not_primary_user_message">Termux只能安装在主用户帐户上。(部分Rom问题)</string>
+
+    <string name="max_terminals_reached_title">已达到最大会话数量</string>
+    <string name="max_terminals_reached_message">为了创建新的会话，请先关闭之前无用会话</string>
+
+    <string name="reset_toast_notification">终端已重置</string>
+
+    <string name="select_url">选择URL</string>
+    <string name="select_url_dialog_title">单击复制，长按URL在系统默认浏览器打开</string>
+    <string name="select_all_and_share">分享终端文字</string>
+    <string name="select_url_no_found">终端没有URL</string>
+    <string name="select_url_copied_to_clipboard">URL已复制</string>
+    <string name="share_transcript_chooser_title">把文本发送到:</string>
+
+    <string name="kill_process">终止此会话进程 (%d)</string>
+    <string name="confirm_kill_process">真的要终止此会话进程么？\n你的工作或者数据可能会丢失</string>
+
+    <string name="session_rename_title">设置会话名</string>
+    <string name="session_rename_positive_button">设置</string>
+    <string name="session_new_named_title">新建命名会话</string>
+    <string name="session_new_named_positive_button">创建</string>
+
+    <string name="styling_not_installed">Termux:Style插件没有安装</string>
+    <string name="styling_install">安装</string>
+
+    <string name="notification_action_exit">退出</string>
+    <string name="notification_action_wake_lock">锁定后台</string>
+    <string name="notification_action_wake_unlock">取消锁定</string>
+
+    <string name="file_received_title">文件会保存在~/downloads/</string>
+    <string name="file_received_edit_button">编辑</string>
+    <string name="file_received_open_folder_button">打开文件夹</string>
+</resources>
